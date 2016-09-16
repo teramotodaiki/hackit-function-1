@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <!-- HackforPlayer -->
+    <script async src="./lib/hackforplayer.js" onload="h4p()"></script>
+    <style media="screen">
+    .wrapper {
+      max-width: 680px;
+      margin-left: 10px;
+    }
+    </style>
+<script id="script" type="hack">
+// 4. 自由のキャンバス
+var p5 = require('https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.min.js');
+new p5();
+pixelDensity(1);
+resizeCanvas(1000, 1000);
+Hack.view = canvas;
+
+background(255);
+
+// 残りの時間で、このキャンバスに自由に絵を描こう！
+
+
+</script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-3">ひみつの絵画教室</h1>
+      <p class="lead">関数が使えたら絵がカンタンにかけるって、ホントだろうか？</p>
+      <hr class="m-y-2">
+      <p>おめでとう！すべてのミッションをクリアした！</p>
+      <p>まだまだたくさんの関数があるよ。<a target="_blank" href="http://p5js.org/reference/">ここをクリックして他の関数をチェック！</a></p>
+    </div>
+    <div class="wrapper">
+      <div class="alert alert-info">4. 自由のキャンバス</div>
+      <div class="h4p__container" data-target="#script" style="width: 100%; height: 50vh;"></div>
+    </div>
+  </body>
+</html>
