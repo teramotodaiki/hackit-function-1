@@ -1,5 +1,5 @@
 // 2. 基本のキャンバス
-require('sketch');
+var sketch = require('sketch');
 
 // ミッションがとどいたよ！
 // 「三角形を描こう」
