@@ -4,3 +4,5 @@ var sketch = new p5();
 pixelDensity(1);
 resizeCanvas(1000, 1000);
 Hack.view = canvas;
+
+module.exports = sketch;

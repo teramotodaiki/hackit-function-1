@@ -1,6 +1,5 @@
 // 3. 応用のキャンバス
-require('sketch');
-
+var sketch = require('sketch');
 
 // ミッションがとどいたよ！
 // 「 >_< の顔文字を描こう」

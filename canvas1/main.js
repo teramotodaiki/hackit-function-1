@@ -1,5 +1,5 @@
 // 1. 練習のキャンバス
-require('sketch');
+var sketch = require('sketch');
 
 // ヒント：backgroundは「背景」という意味
 // 中に入る数字は255が一番大きくて、真っ白になる。
